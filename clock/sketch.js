@@ -9,7 +9,7 @@ function setup() {
 function draw() {
 	stroke('#222222')
 	background(10000);
-	circle(30, 30, 20);
+	circle(30, 30, second()*20);
 	//second background
 // 	for (let i = 0; i < 60; i++) {
 // 		strokeWeight(3)
