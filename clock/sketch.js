@@ -10,7 +10,9 @@ function draw() {
 	stroke('#222222')
 	background(10000);
 	circle(30, 30, second()*20);
-	//second background
+	for (let i=0; i<second(); i++){
+		circle(30, 30, 20+second())
+		//second background
 // 	for (let i = 0; i < 60; i++) {
 // 		strokeWeight(3)
 // 		stroke(0,0,255,150)
